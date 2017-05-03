@@ -1,0 +1,156 @@
+<messages>
+<message type="header" number="0">
+	<field number="8" required="Y"/>
+	<field number="9" required="Y"/>
+	<field number="35" required="Y"/>
+	<field number="49" required="Y"/>
+	<field number="56" required="Y"/>
+	<field number="34" required="Y"/>
+	<field number="43" required="N"/>
+	<field number="52" required="Y"/>
+</message>
+<message type="Logon" number="A">
+	<field number="35" required="Y"/>
+	<field number="98" required="Y"/>
+	<field number="108" required="Y"/>
+	<field number="141" required="Y"/>
+	<field number="553" required="Y"/>
+	<field number="554" required="Y"/>
+</message>
+<message type="MarketDataRequest" number="V">
+	<field number="35" required="Y"/>
+	<field number="262" required="Y"/>
+	<field number="263" required="Y"/>
+	<field number="264" required="Y"/>
+	<field number="265" required="N"/>
+	<field number="267" required="Y">
+		<group>
+			<field number="269" required="Y"/>
+		</group>
+	</field>
+	<field number="146" required="Y">
+		<group>
+			<field number="55" required="Y"/>
+		</group>
+	</field>
+</message>
+<message type="NewOrderSingle" number="D">
+	<field number="35" required="Y"/>
+	<field number="1" required="Y"/>
+	<field number="11" required="Y"/>
+	<field number="40" required="Y"/>
+	<field number="44" required="N"/>
+	<field number="54" required="Y"/>
+	<field number="38" required="Y"/>
+	<field number="55" required="Y"/>
+	<field number="99" required="N"/>
+	<field number="640" required="N"/>
+	<field number="18" required="N"/>
+	<field number="167" required="Y"/>
+	<field number="59" required="Y"/>
+	<field number="60" required="Y"/>
+	<field number="21" required="Y" defaultVal="1"/>
+</message>
+<message type="OrderCancelReuqest" number="F">
+	<field number="35" required="Y"/>
+	<field number="11" required="Y"/>
+	<field number="41" required="Y"/>
+	<field number="1" required="Y"/>
+	<field number="40" required="Y"/>
+	<field number="54" required="Y"/>
+	<field number="38" required="Y"/>
+	<field number="55" required="Y"/>
+	<field number="167" required="Y"/>
+	<field number="60" required="Y"/>
+</message>
+<message type="OrderCancelReplaceReuqest" number="G">
+	<field number="35" required="Y"/>
+	<field number="11" required="Y"/>
+	<field number="41" required="Y"/>
+	<field number="1" required="Y"/>
+	<field number="40" required="Y"/>
+	<field number="54" required="Y"/>
+	<field number="38" required="Y"/>
+	<field number="14" required="Y"/>
+	<field number="55" required="Y"/>
+	<field number="44" required="N"/>
+	<field number="99" required="N"/>
+	<field number="640" required="N"/>
+	<field number="59" required="Y"/>
+	<field number="18" required="N"/>
+	<field number="167" required="Y"/>
+	<field number="21" required="Y" defaultVal="1"/>
+	<field number="60" required="Y"/>
+</message>
+<message type="Reject" number="A">
+	<field number="35" required="Y"/>
+	<field number="45" required="Y"/>
+	<field number="372" required="Y"/>
+	<field number="373" required="Y"/>
+	<field number="58" required="N"/>
+</message>
+<message type="BusinessMessageReject" number="J">
+	<field number="35" required="Y"/>
+	<field number="45" required="Y"/>
+	<field number="372" required="Y"/>
+	<field number="380" required="Y"/>
+	<field number="58" required="N"/>
+</message>
+<message type="MarketDataSnapshotFullRefresh" number="W">
+	<field number="35" required="Y"/>
+	<field number="55" required="Y"/>
+	<field number="262" required="N"/>
+	<field number="268" required="Y">
+		<group>
+			<field number="269" required="Y"/>
+			<field number="270" required="Y"/>
+			<field number="271" required="Y"/>
+		</group>
+	</field>
+</message>
+<message type="ExecutionReport" number="J">
+	<field number="35" required="Y"/>
+	<field number="39" required="Y"/>
+	<field number="150" required="Y"/>
+	<field number="37" required="Y"/>
+	<field number="17" required="Y"/>
+	<field number="1" required="Y"/>
+	<field number="11" required="Y"/>
+	<field number="41" required="N"/>
+	<field number="40" required="Y"/>
+	<field number="59" required="N"/>
+	<field number="55" required="Y"/>
+	<field number="54" required="Y"/>
+	<field number="38" required="N"/>
+	<field number="44" required="N"/>
+	<field number="14" required="N"/>
+	<field number="12" required="N"/>
+	<field number="6" required="N"/>
+	<field number="9329" required="N"/>
+	<field number="151" required="N"/>
+	<field number="167" required="Y"/>
+	<field number="32" required="N"/>
+	<field number="31" required="N"/>
+	<field number="64" required="N"/>
+	<field number="75" required="N"/>
+	<field number="60" required="Y"/>
+	<field number="58" required="N"/>
+</message>
+<message type="OrderCancelReject" number="9">
+	<field number="35" required="Y"/>
+	<field number="39" required="Y"/>
+	<field number="37" required="Y"/>
+	<field number="11" required="Y"/>
+	<field number="41" required="Y"/>
+	<field number="1" required="N"/>
+	<field number="60" required="N"/>
+	<field number="102" required="N"/>
+	<field number="434" required="Y"/>
+</message>
+<message type="MarketDataRequestReject" number="Y">
+	<field number="35" required="Y"/>
+	<field number="262" required="Y"/>
+	<field number="281" required="Y"/>
+	<field number="58" required="Y"/>
+</message>
+</messages>
